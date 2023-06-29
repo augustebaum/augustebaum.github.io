@@ -3,9 +3,9 @@
 This is the source code for my personal website,
 [augustebaum.com](https://augustebaum.com).
 For now, the website is hosted on 
-[augustebaum.github.io/website](https://augustebaum.github.io/website).
+[augustebaum.github.io](https://augustebaum.github.io).
 
-It is built with [Hugo](gohugo.io) along with my custom version
+It is built with [Hugo](https://gohugo.io) along with my custom version
 of the [cactus theme](https://github.com/monkeyWzr/hugo-theme-cactus).
 
 ## TODO
@@ -38,4 +38,4 @@ Run
 ```sh
 hugo help
 ```
-or see the [online Hugo docs](gohugo.io) for more information.
+or see the [online Hugo docs](https://gohugo.io) for more information.
