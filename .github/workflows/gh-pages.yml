@@ -8,10 +8,8 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
-
 permissions:
   contents: write
-  
 
 jobs:
   deploy:
