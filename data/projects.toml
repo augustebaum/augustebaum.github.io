@@ -1,9 +1,0 @@
-[[list]]
-name = "romodoro"
-url = "https://codeberg.org/augustebaum/romodoro"
-desc = "a Pomodoro timer in Rust targetting WebAssembly"
-
-# [[list]]
-# name = "hi"
-# url = "hi"
-# desc = "hi"

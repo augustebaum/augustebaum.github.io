@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Auguste&#39;s website</title>
+    <link>https://augustebaum.github.io/posts/</link>
+    <description>Recent content in Posts on Auguste&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Auguste Baum</copyright>
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://augustebaum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first time on GTA</title>
+      <link>https://augustebaum.github.io/posts/2023-06-27-04-my-first-time-on-gta/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://augustebaum.github.io/posts/2023-06-27-04-my-first-time-on-gta/</guid>
+      <description>A few weeks ago I was proven right. I didn&amp;rsquo;t like it.
+When I was young I played video games a fair amount. My history with screens started early on, when I watched TV in the morning before going to school. One day, I found an old Game Boy Advance with a cartridge in. I don&amp;rsquo;t remember what the game was, though it might have been Super Mario Advance. The screen was hard to see.</description>
+    </item>
+    
+    <item>
+      <title>A Weekend on Neural Network Interpretability</title>
+      <link>https://augustebaum.github.io/posts/2023-05-29-03-a-weekend-on-neural-network-interpretability/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://augustebaum.github.io/posts/2023-05-29-03-a-weekend-on-neural-network-interpretability/</guid>
+      <description>This is a summary of my experience of the weekend on interpretability I spent from 2023-05-27 morning to 2023-05-28 evening. This was organized in Paris by EffiSciences.
+Saturday Morning We got an introduction to AI risk and the idea of interpretability was introduced as a possible way to counter Goal Misgeneralization, whereby an AI can end up pursuing a goal that is different from the one that was intended, because it found a proxy to the &amp;ldquo;right solution&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Nix for Python, attempt number 2</title>
+      <link>https://augustebaum.github.io/posts/2023-05-19-02-nix-for-python-attempt-no.-2/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://augustebaum.github.io/posts/2023-05-19-02-nix-for-python-attempt-no.-2/</guid>
+      <description>Last post we tried to make a Python project fully reproducible based on a detailed requirements.txt file. We ended up not managing to go the full Nix way, but we got pretty close. However, there are many ways to approach this, with language-specific tools getting published and archived on the regular.
+At the end of the last post I mentioned dream2nix and their &amp;ldquo;Build your Python project in 10 minutes&amp;rdquo; tutorial which I would try out in a future post.</description>
+    </item>
+    
+    <item>
+      <title>Nix for Python, attempt number 1</title>
+      <link>https://augustebaum.github.io/posts/2023-05-16-01-nix-for-python-attempt-no.-1/</link>
+      <pubDate>Tue, 16 May 2023 00:15:00 +0000</pubDate>
+      
+      <guid>https://augustebaum.github.io/posts/2023-05-16-01-nix-for-python-attempt-no.-1/</guid>
+      <description>Disclaimer: This is less of a tutorial and more of a record of my past experience&amp;mdash;in particular, I end up not reaching my stated goal for this post.
+I&amp;rsquo;ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they&amp;rsquo;ve included a full detailed list of their project dependencies as a requirements.</description>
+    </item>
+    
+  </channel>
+</rss>
