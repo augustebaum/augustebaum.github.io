@@ -95,7 +95,7 @@ However, how these issues are dealt with can differ based on what your team look
 
 On the one hand, mobbing with people with a similar skill level to yours is nice because you don't have to worry about leaving people behind; however, sometimes you need an expert with you to get unblocked and stay motivated. On the other hand, with a proficient engineer on the team, you know the session will be productive, but you might end up letting them do everything and falling behind; in these moments, it can be difficult to muster the will to ask the other members to fill you back in.
 
-One solution to this conundrum is to be gentle and explicit. Explain what you think in detail, ask whether your explanation makes sense, and only then go into writing (preferably boring) code. This takes a lot of mental energy, especially for long sessions, which means coding alone later can feel exhilarating: you're getting all this energy back! It's a bit like in Dragon Ball, when Goku trains for by wearing a 40 kg outfit: when he removes it he feels super light in comparison.
+One solution to this conundrum is to be gentle and explicit. Explain what you think in detail, ask whether your explanation makes sense, and only then go into writing (preferably boring) code. This takes a lot of mental energy, especially for long sessions, which means coding alone later can feel exhilarating: you're getting all this energy back! It's a bit like in Dragon Ball, when Goku trains for battle by wearing a 40 kg outfit: when he removes it he feels super light in comparison.
 
 <figure>
 <img src="../assets/can't-pick-up-goku's-clothes.jpg" alt="A page from Dragon Ball wherein Goku reveals he's been wearing weighted clothes"/>
