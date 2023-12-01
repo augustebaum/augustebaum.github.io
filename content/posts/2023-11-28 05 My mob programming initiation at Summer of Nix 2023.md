@@ -66,6 +66,10 @@ This was my only activity and source of income throughout the summer of 2023, fr
 
 The reason it was so fun was because of mob programming.
 
+Upon reading this post, one of my coworkers from this job told me they "wish I had had a better mobbing experience".
+To reiterate, I had a *wonderful* time with mob programming and I wish to continue practicing it as much as possible in the near future, especially in remote contexts.
+The following contains a number of _minor things that could be improved_, rather than a serious indictment of the method.
+
 ### Thoughts on Mob Programming
 
 There are no uniformly good or bad points to the mob workflow that I can see; it all depends on the chosen format (round lengths, number of people, tooling), the people you're working with and what kind of work is being done.
@@ -118,6 +122,8 @@ Some quickfire thoughts I couldn't fit anywhere else:
 - Before mobbing I thought it would help to research stuff outside of the mob session, so that we could start up quickly during our next session; I usually didn't do that though, presumably because I always hesitated to count this time as proper work.
 - I explained earlier that ideally a mobster should be able to explain in detail what their idea is before we go into implementation. However, this introduces a bias towards few-words solutions and discourages taking time to write a proper plan that takes more elements into account.
 
+Once again, it is always easier to notice negative than positive things; I don't want to make it seem like my experience was poor.
+I would happily do it all over again (and will definitely try next year!) and I will strive to set it up in my future place of work.
 By the way, I was invited to talk about the experience in the Mob Mentality podcast along with fellow Summer-of-Nix-ers; you can find the recording [here](https://youtu.be/VnT5VxMFGAI).
 
 Finally, I wish to thank the organizers for making this event possible, including Dawn, Valentin and the NixOS Foundation, and a big shout out to all the participants, including my fellow mob members Lorenz, Ivan, Andrés and Ondřej!
