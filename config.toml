@@ -49,28 +49,26 @@ weight = 4
 
 
 [params]
-  colortheme = "white" # dark, light, white, or classic
+  colortheme = "dark" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
   # Home page settings
-  # Multi-line strings are interpreted as code, unfortunately
-  # description = """
-  #   My name is Auguste Baum.
-  #   In case you were wondering, my first name is pronounced like the eighth month of the year.
-  #   I am currently a Master's student in Data Science at EPFL, in Switzerland.
-    
-  #   I have also been involved with [Resilio](hh.com), a start-up aiming to help companies reduce their environmental impact.
-  # """
-  description = "My name is Auguste Baum. In case you were wondering, my first name is pronounced like the eighth month of the year. I have just graduated with a Master's degree in Data Science at EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact."
+  description = """
+  Hi, I'm Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I'm a software developer from Paris, France currently interested in Nix, domain-driven development, and doing projects because they sound fun. I'm #openToWork!.
+
+  I hold a Master's degree in Data Science from EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
+  """
   mainSection = "posts"
-  showAllPostsOnHomePage = false # default
+  showAllPostsOnHomePage = true
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = false
+  tagsOverview = true
   showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "https://codeberg.org/augustebaum" # title link for projects list
 
+  # mathjax = true (enable it per post instead)
+  
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat = "2006-01-02" # default
 
@@ -104,3 +102,6 @@ weight = 4
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/auguste-baum/"
+  [[params.social]]
+    name = "mastodon"
+    link = "https://fosstodon.org/@augustebaum"
