@@ -6,6 +6,8 @@ keywords:
 ---
 This post is adapted from a talk I gave at my place of work to convince them to try mob programming. I took some inspiration from Woody Zuil's ["Mob Programming and the Power of Flow"](https://youtu.be/28S4CVkYhWA) talk, but the arguments reflect my own personal experiences at work---if your experience doesn't match mine, that's okay.
 
+Succinctly, mob programming consists in working on a task together with a group of people (a "mob"), usually software development. One programmer has control of the keyboard and types stuff, while the others talk things out and tell the typist what to do. Every 10 minutes or so, someone else becomes the typist, and so on.
+
 Here is the plan:
 1. 10 reasons to implement mob programming
 2. 3 (bad) reasons not to do it
