@@ -14,7 +14,7 @@
       <link>https://augustebaum.github.io/posts/2024-02-22-06-why-you-should-try-mob-programming/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://augustebaum.github.io/posts/2024-02-22-06-why-you-should-try-mob-programming/</guid>
-      <description>This post is adapted from a talk I gave at my place of work to convince them to try mob programming. I took some inspiration from Woody Zuil&amp;rsquo;s &amp;ldquo;Mob Programming and the Power of Flow&amp;rdquo; talk, but the arguments reflect my own personal experiences at work&amp;mdash;if your experience doesn&amp;rsquo;t match mine, that&amp;rsquo;s okay.&#xA;Here is the plan:&#xA;10 reasons to implement mob programming 3 (bad) reasons not to do it A top 10 of reasons to implement mob programming It encourages everyone to focus on what matters When I&amp;rsquo;m working on a project on my own, it can be easy to start bike-shedding.</description>
+      <description>This post is adapted from a talk I gave at my place of work to convince them to try mob programming. I took some inspiration from Woody Zuil&amp;rsquo;s &amp;ldquo;Mob Programming and the Power of Flow&amp;rdquo; talk, but the arguments reflect my own personal experiences at work&amp;mdash;if your experience doesn&amp;rsquo;t match mine, that&amp;rsquo;s okay.&#xA;Succinctly, mob programming consists in working on a task together with a group of people (a &amp;ldquo;mob&amp;rdquo;), usually software development.</description>
     </item>
     <item>
       <title>My mob programming initiation at Summer of Nix 2023</title>
