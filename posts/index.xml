@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Auguste Baum</copyright>
-    <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://augustebaum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A very short introduction to Nix</title>
+      <link>https://augustebaum.github.io/posts/2024-03-04-07-a-very-short-introduction-to-nix/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://augustebaum.github.io/posts/2024-03-04-07-a-very-short-introduction-to-nix/</guid>
+      <description>This post is adapted from a talk I gave at my place of work to convince them to try Nix for managing our projects&amp;rsquo; dependencies and deployment. It absolutely didn&amp;rsquo;t work&amp;mdash;make of that what you will.&#xA;What is this thing called Nix? This is usually the most confusing part. Nix is an ecosystem of tools centered on making things declarative (you describe what you want, not how to get it&amp;mdash;think SQL or HTML) and reproducible (your project will still run with the same setup in 10 years, if all goes well).</description>
+    </item>
     <item>
       <title>Why you should try mob programming</title>
       <link>https://augustebaum.github.io/posts/2024-02-22-06-why-you-should-try-mob-programming/</link>

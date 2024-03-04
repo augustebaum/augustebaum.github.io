@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://augustebaum.github.io/posts/2024-03-04-07-a-very-short-introduction-to-nix/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://augustebaum.github.io/</loc>
-    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://augustebaum.github.io/posts/</loc>
-    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://augustebaum.github.io/posts/2024-02-22-06-why-you-should-try-mob-programming/</loc>
     <lastmod>2024-02-26T00:00:00+00:00</lastmod>
