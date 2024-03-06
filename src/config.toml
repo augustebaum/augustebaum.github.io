@@ -1,6 +1,6 @@
 baseURL = "https://augustebaum.github.io"
 languageCode = "en-us"
-title = "Auguste's website"
+title = "Auguste Baum's website"
 theme = "etch"
 
 [params]
@@ -15,11 +15,6 @@ theme = "etch"
   name = "Home"
   url = "/"
   weight = 1
-
-  [[menu.main]]
-  name = "Posts"
-  url = "/posts"
-  weight = 2
 
   [[menu.main]]
   name = "RSS"

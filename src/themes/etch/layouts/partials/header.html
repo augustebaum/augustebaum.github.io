@@ -1,0 +1,15 @@
+<header id="banner">
+    {{ with resources.Get "images/logo.png" }}
+      <img id="logo" src="{{ .Permalink }}" alt="Auguste's logo">
+    {{ end }}
+    <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.main.ByWeight -}}
+            <li>
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>
