@@ -26,6 +26,7 @@ theme = "etch"
     endLevel = 4
     ordered = true
     startLevel = 2
+
   [markup.highlight]
     codeFences = true
     guessSyntax = false
@@ -36,5 +37,6 @@ theme = "etch"
     noClasses = true
     style = "dracula"
     tabWidth = 4
+
   [markup.goldmark.renderer]
     unsafe = true
