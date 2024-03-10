@@ -12,7 +12,10 @@ in
       buildInputs = [pkgs.hugo];
 
       buildPhase = ''
-        cd $src
-        ${lib.getExe pkgs.hugo} --noBuildLock --destination $out
+        ${lib.getExe pkgs.hugo} \
+          --noBuildLock \
+          --minify \
+          --source $src \
+          --destination $out
       '';
     }
