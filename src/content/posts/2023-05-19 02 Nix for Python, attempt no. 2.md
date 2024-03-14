@@ -5,7 +5,7 @@ keywords:
   - nix
   - python
 ---
-[Last post](http://augustebaum.github.io/website/posts/2023-05-16-01-nix-for-python-attempt-no.-1/) we tried to make a Python project fully reproducible based on a detailed `requirements.txt` file. We ended up not managing to go the full Nix way, but we got pretty close. However, there are many ways to approach this, with language-specific tools getting published and archived on the regular.
+[Last post](/posts/2023-05-16-01-nix-for-python-attempt-no.-1/) we tried to make a Python project fully reproducible based on a detailed `requirements.txt` file. We ended up not managing to go the full Nix way, but we got pretty close. However, there are many ways to approach this, with language-specific tools getting published and archived on the regular.
 
 At the end of the last post I mentioned [dream2nix](https://nix-community.github.io/dream2nix/) and their ["Build your Python project in 10 minutes" tutorial](https://nix-community.github.io/dream2nix/guides/getting-started-python.html) which I would try out in a future post. This is that post!
 
