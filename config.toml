@@ -55,9 +55,9 @@ weight = 4
 
   # Home page settings
   description = """
-  Hi, I'm Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I'm a software developer from Paris, France currently interested in Nix, domain-driven development, and doing projects because they sound fun. I'm #openToWork!.
+  Hi, I'm Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I'm a software developer with start-up experience and interests in functional languages, reproducibility and new ways of programming.
 
-  I hold a Master's degree in Data Science from EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
+  I hold a Master's degree in Data Science from EPFL, in Switzerland. I am also the former CTO of [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
   """
   mainSection = "posts"
   showAllPostsOnHomePage = true
