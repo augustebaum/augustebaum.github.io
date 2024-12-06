@@ -11,25 +11,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> A Weekend on Neural Network Interpretability | Auguste&#39;s website</title>
   <link rel = 'canonical' href = 'https://augustebaum.github.io/posts/2023-05-29-03-a-weekend-on-neural-network-interpretability/'>
-  <meta name="description" content="  Hi, I&#39;m Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I&#39;m a software developer from Paris, France currently interested in Nix, domain-driven development, and doing projects because they sound fun. I&#39;m #openToWork!.
+  <meta name="description" content="  Hi, I&#39;m Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I&#39;m a software developer with start-up experience and interests in functional languages, reproducibility and new ways of programming.
 
-  I hold a Master&#39;s degree in Data Science from EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
+  I hold a Master&#39;s degree in Data Science from EPFL, in Switzerland. I am also the former CTO of [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
   ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="A Weekend on Neural Network Interpretability" />
-<meta property="og:description" content="This is a summary of my experience of the weekend on interpretability I spent from 2023-05-27 morning to 2023-05-28 evening. This was organized in Paris by EffiSciences.
-Saturday Morning We got an introduction to AI risk and the idea of interpretability was introduced as a possible way to counter Goal Misgeneralization, whereby an AI can end up pursuing a goal that is different from the one that was intended, because it found a proxy to the &ldquo;right solution&rdquo;." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://augustebaum.github.io/posts/2023-05-29-03-a-weekend-on-neural-network-interpretability/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-05-29T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-05-29T00:00:00+00:00" />
+  <meta property="og:url" content="https://augustebaum.github.io/posts/2023-05-29-03-a-weekend-on-neural-network-interpretability/">
+  <meta property="og:site_name" content="Auguste&#39;s website">
+  <meta property="og:title" content="A Weekend on Neural Network Interpretability">
+  <meta property="og:description" content="This is a summary of my experience of the weekend on interpretability I spent from 2023-05-27 morning to 2023-05-28 evening. This was organized in Paris by EffiSciences.
+Saturday Morning We got an introduction to AI risk and the idea of interpretability was introduced as a possible way to counter Goal Misgeneralization, whereby an AI can end up pursuing a goal that is different from the one that was intended, because it found a proxy to the “right solution”. This implies that if the proxy behaves differently in deployment than in training, the agent will still just follow the proxy even if this yields bad outcomes.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-05-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-05-29T00:00:00+00:00">
 
-
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="A Weekend on Neural Network Interpretability"/>
-<meta name="twitter:description" content="This is a summary of my experience of the weekend on interpretability I spent from 2023-05-27 morning to 2023-05-28 evening. This was organized in Paris by EffiSciences.
-Saturday Morning We got an introduction to AI risk and the idea of interpretability was introduced as a possible way to counter Goal Misgeneralization, whereby an AI can end up pursuing a goal that is different from the one that was intended, because it found a proxy to the &ldquo;right solution&rdquo;."/>
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Weekend on Neural Network Interpretability">
+  <meta name="twitter:description" content="This is a summary of my experience of the weekend on interpretability I spent from 2023-05-27 morning to 2023-05-28 evening. This was organized in Paris by EffiSciences.
+Saturday Morning We got an introduction to AI risk and the idea of interpretability was introduced as a possible way to counter Goal Misgeneralization, whereby an AI can end up pursuing a goal that is different from the one that was intended, because it found a proxy to the “right solution”. This implies that if the proxy behaves differently in deployment than in training, the agent will still just follow the proxy even if this yields bad outcomes.">
 
   
   
@@ -50,7 +54,6 @@ Saturday Morning We got an introduction to AI risk and the idea of interpretabil
   
 <link rel="icon" type="image/png" href="https://augustebaum.github.io/images/favicon.ico" />
 
-  
   
   
   
@@ -155,7 +158,7 @@ Saturday Morning We got an introduction to AI risk and the idea of interpretabil
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-29-03-a-weekend-on-neural-network-interpretability%2f&name=A%20Weekend%20on%20Neural%20Network%20Interpretability&description=This%20is%20a%20summary%20of%20my%20experience%20of%20the%20weekend%20on%20interpretability%20I%20spent%20from%202023-05-27%20morning%20to%202023-05-28%20evening.%20This%20was%20organized%20in%20Paris%20by%20EffiSciences.%0aSaturday%20Morning%20We%20got%20an%20introduction%20to%20AI%20risk%20and%20the%20idea%20of%20interpretability%20was%20introduced%20as%20a%20possible%20way%20to%20counter%20Goal%20Misgeneralization%2c%20whereby%20an%20AI%20can%20end%20up%20pursuing%20a%20goal%20that%20is%20different%20from%20the%20one%20that%20was%20intended%2c%20because%20it%20found%20a%20proxy%20to%20the%20%26ldquo%3bright%20solution%26rdquo%3b." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-29-03-a-weekend-on-neural-network-interpretability%2f&name=A%20Weekend%20on%20Neural%20Network%20Interpretability&description=%3cp%3eThis%20is%20a%20summary%20of%20my%20experience%20of%20%3ca%20href%3d%22https%3a%2f%2fwww.eventbrite.fr%2fe%2fbillets-week-end-de-formation-intensive-en-interpretabilite-601236714197%22%3ethe%20weekend%20on%20interpretability%3c%2fa%3e%20I%20spent%20from%202023-05-27%20morning%20to%202023-05-28%20evening.%0aThis%20was%20organized%20in%20Paris%20by%20%3ca%20href%3d%22https%3a%2f%2fwww.effisciences.org%2f%22%3eEffiSciences%3c%2fa%3e.%3c%2fp%3e%0a%3ch2%20id%3d%22saturday-morning%22%3eSaturday%20Morning%3c%2fh2%3e%0a%3cp%3eWe%20got%20an%20introduction%20to%20AI%20risk%20and%20the%20idea%20of%20interpretability%20was%20introduced%20as%20a%20possible%20way%20to%20counter%20%3ca%20href%3d%22https%3a%2f%2fdeepmindsafetyresearch.medium.com%2fgoal-misgeneralisation-why-correct-specifications-arent-enough-for-correct-goals-cf96ebc60924%22%3eGoal%20Misgeneralization%3c%2fa%3e%2c%20whereby%20an%20AI%20can%20end%20up%20pursuing%20a%20goal%20that%20is%20different%20from%20the%20one%20that%20was%20intended%2c%20because%20it%20found%20a%20proxy%20to%20the%20%26ldquo%3bright%20solution%26rdquo%3b.%20This%20implies%20that%20if%20the%20proxy%20behaves%20differently%20in%20deployment%20than%20in%20training%2c%20the%20agent%20will%20still%20just%20follow%20the%20proxy%20even%20if%20this%20yields%20bad%20outcomes.%3c%2fp%3e" aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
@@ -370,7 +373,7 @@ This was organized in Paris by <a href="https://www.effisciences.org/">EffiScien
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-29-03-a-weekend-on-neural-network-interpretability%2f&name=A%20Weekend%20on%20Neural%20Network%20Interpretability&description=This%20is%20a%20summary%20of%20my%20experience%20of%20the%20weekend%20on%20interpretability%20I%20spent%20from%202023-05-27%20morning%20to%202023-05-28%20evening.%20This%20was%20organized%20in%20Paris%20by%20EffiSciences.%0aSaturday%20Morning%20We%20got%20an%20introduction%20to%20AI%20risk%20and%20the%20idea%20of%20interpretability%20was%20introduced%20as%20a%20possible%20way%20to%20counter%20Goal%20Misgeneralization%2c%20whereby%20an%20AI%20can%20end%20up%20pursuing%20a%20goal%20that%20is%20different%20from%20the%20one%20that%20was%20intended%2c%20because%20it%20found%20a%20proxy%20to%20the%20%26ldquo%3bright%20solution%26rdquo%3b." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-29-03-a-weekend-on-neural-network-interpretability%2f&name=A%20Weekend%20on%20Neural%20Network%20Interpretability&description=%3cp%3eThis%20is%20a%20summary%20of%20my%20experience%20of%20%3ca%20href%3d%22https%3a%2f%2fwww.eventbrite.fr%2fe%2fbillets-week-end-de-formation-intensive-en-interpretabilite-601236714197%22%3ethe%20weekend%20on%20interpretability%3c%2fa%3e%20I%20spent%20from%202023-05-27%20morning%20to%202023-05-28%20evening.%0aThis%20was%20organized%20in%20Paris%20by%20%3ca%20href%3d%22https%3a%2f%2fwww.effisciences.org%2f%22%3eEffiSciences%3c%2fa%3e.%3c%2fp%3e%0a%3ch2%20id%3d%22saturday-morning%22%3eSaturday%20Morning%3c%2fh2%3e%0a%3cp%3eWe%20got%20an%20introduction%20to%20AI%20risk%20and%20the%20idea%20of%20interpretability%20was%20introduced%20as%20a%20possible%20way%20to%20counter%20%3ca%20href%3d%22https%3a%2f%2fdeepmindsafetyresearch.medium.com%2fgoal-misgeneralisation-why-correct-specifications-arent-enough-for-correct-goals-cf96ebc60924%22%3eGoal%20Misgeneralization%3c%2fa%3e%2c%20whereby%20an%20AI%20can%20end%20up%20pursuing%20a%20goal%20that%20is%20different%20from%20the%20one%20that%20was%20intended%2c%20because%20it%20found%20a%20proxy%20to%20the%20%26ldquo%3bright%20solution%26rdquo%3b.%20This%20implies%20that%20if%20the%20proxy%20behaves%20differently%20in%20deployment%20than%20in%20training%2c%20the%20agent%20will%20still%20just%20follow%20the%20proxy%20even%20if%20this%20yields%20bad%20outcomes.%3c%2fp%3e" aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>

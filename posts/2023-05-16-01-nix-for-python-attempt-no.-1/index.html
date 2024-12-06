@@ -11,25 +11,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> Nix for Python, attempt number 1 | Auguste&#39;s website</title>
   <link rel = 'canonical' href = 'https://augustebaum.github.io/posts/2023-05-16-01-nix-for-python-attempt-no.-1/'>
-  <meta name="description" content="  Hi, I&#39;m Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I&#39;m a software developer from Paris, France currently interested in Nix, domain-driven development, and doing projects because they sound fun. I&#39;m #openToWork!.
+  <meta name="description" content="  Hi, I&#39;m Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I&#39;m a software developer with start-up experience and interests in functional languages, reproducibility and new ways of programming.
 
-  I hold a Master&#39;s degree in Data Science from EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
+  I hold a Master&#39;s degree in Data Science from EPFL, in Switzerland. I am also the former CTO of [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
   ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Nix for Python, attempt number 1" />
-<meta property="og:description" content="Disclaimer: This is less of a tutorial and more of a record of my past experience&mdash;in particular, I end up not reaching my stated goal for this post.
-I&rsquo;ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they&rsquo;ve included a full detailed list of their project dependencies as a requirements." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://augustebaum.github.io/posts/2023-05-16-01-nix-for-python-attempt-no.-1/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-05-16T00:15:00+00:00" />
-<meta property="article:modified_time" content="2023-05-16T00:15:00+00:00" />
+  <meta property="og:url" content="https://augustebaum.github.io/posts/2023-05-16-01-nix-for-python-attempt-no.-1/">
+  <meta property="og:site_name" content="Auguste&#39;s website">
+  <meta property="og:title" content="Nix for Python, attempt number 1">
+  <meta property="og:description" content="Disclaimer: This is less of a tutorial and more of a record of my past experience—in particular, I end up not reaching my stated goal for this post.
+I’ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they’ve included a full detailed list of their project dependencies as a requirements.txt file.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-05-16T00:15:00+00:00">
+    <meta property="article:modified_time" content="2023-05-16T00:15:00+00:00">
 
-
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Nix for Python, attempt number 1"/>
-<meta name="twitter:description" content="Disclaimer: This is less of a tutorial and more of a record of my past experience&mdash;in particular, I end up not reaching my stated goal for this post.
-I&rsquo;ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they&rsquo;ve included a full detailed list of their project dependencies as a requirements."/>
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Nix for Python, attempt number 1">
+  <meta name="twitter:description" content="Disclaimer: This is less of a tutorial and more of a record of my past experience—in particular, I end up not reaching my stated goal for this post.
+I’ve been reading this book on Hypermedia Systems, and one of the things they do is develop a small CRUD application in Python for which the code can be found here. Like the good software citizens they are, they’ve included a full detailed list of their project dependencies as a requirements.txt file.">
 
   
   
@@ -50,7 +54,6 @@ I&rsquo;ve been reading this book on Hypermedia Systems, and one of the things t
   
 <link rel="icon" type="image/png" href="https://augustebaum.github.io/images/favicon.ico" />
 
-  
   
   
   
@@ -155,7 +158,7 @@ I&rsquo;ve been reading this book on Hypermedia Systems, and one of the things t
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-16-01-nix-for-python-attempt-no.-1%2f&name=Nix%20for%20Python%2c%20attempt%20number%201&description=Disclaimer%3a%20This%20is%20less%20of%20a%20tutorial%20and%20more%20of%20a%20record%20of%20my%20past%20experience%26mdash%3bin%20particular%2c%20I%20end%20up%20not%20reaching%20my%20stated%20goal%20for%20this%20post.%0aI%26rsquo%3bve%20been%20reading%20this%20book%20on%20Hypermedia%20Systems%2c%20and%20one%20of%20the%20things%20they%20do%20is%20develop%20a%20small%20CRUD%20application%20in%20Python%20for%20which%20the%20code%20can%20be%20found%20here.%20Like%20the%20good%20software%20citizens%20they%20are%2c%20they%26rsquo%3bve%20included%20a%20full%20detailed%20list%20of%20their%20project%20dependencies%20as%20a%20requirements." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-16-01-nix-for-python-attempt-no.-1%2f&name=Nix%20for%20Python%2c%20attempt%20number%201&description=%3cp%3eDisclaimer%3a%20This%20is%20less%20of%20a%20tutorial%20and%20more%20of%20a%20record%20of%20my%20past%20experience%26mdash%3bin%20particular%2c%20I%20end%20up%20not%20reaching%20my%20stated%20goal%20for%20this%20post.%3c%2fp%3e%0a%3cp%3eI%26rsquo%3bve%20been%20reading%20this%20book%20on%20%3ca%20href%3d%22https%3a%2f%2fhypermedia.systems%22%3eHypermedia%20Systems%3c%2fa%3e%2c%20and%20one%20of%20the%20things%20they%20do%20is%20develop%20a%20small%20CRUD%20application%20in%20Python%20for%20which%20the%20code%20can%20be%20found%20%3ca%20href%3d%22https%3a%2f%2fgithub.com%2fbigskysoftware%2fcontact-app%22%3ehere%3c%2fa%3e.%20Like%20the%20good%20software%20citizens%20they%20are%2c%20they%26rsquo%3bve%20included%20a%20full%20detailed%20list%20of%20their%20project%20dependencies%20as%20a%20%3ca%20href%3d%22https%3a%2f%2fgithub.com%2fbigskysoftware%2fcontact-app%2fblob%2fmaster%2frequirements.txt%22%3e%3ccode%3erequirements.txt%3c%2fcode%3e%20file%3c%2fa%3e.%3c%2fp%3e" aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
@@ -428,7 +431,7 @@ When this succeeds, we get a <code>python-packages.nix</code> file containing pr
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-16-01-nix-for-python-attempt-no.-1%2f&name=Nix%20for%20Python%2c%20attempt%20number%201&description=Disclaimer%3a%20This%20is%20less%20of%20a%20tutorial%20and%20more%20of%20a%20record%20of%20my%20past%20experience%26mdash%3bin%20particular%2c%20I%20end%20up%20not%20reaching%20my%20stated%20goal%20for%20this%20post.%0aI%26rsquo%3bve%20been%20reading%20this%20book%20on%20Hypermedia%20Systems%2c%20and%20one%20of%20the%20things%20they%20do%20is%20develop%20a%20small%20CRUD%20application%20in%20Python%20for%20which%20the%20code%20can%20be%20found%20here.%20Like%20the%20good%20software%20citizens%20they%20are%2c%20they%26rsquo%3bve%20included%20a%20full%20detailed%20list%20of%20their%20project%20dependencies%20as%20a%20requirements." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-05-16-01-nix-for-python-attempt-no.-1%2f&name=Nix%20for%20Python%2c%20attempt%20number%201&description=%3cp%3eDisclaimer%3a%20This%20is%20less%20of%20a%20tutorial%20and%20more%20of%20a%20record%20of%20my%20past%20experience%26mdash%3bin%20particular%2c%20I%20end%20up%20not%20reaching%20my%20stated%20goal%20for%20this%20post.%3c%2fp%3e%0a%3cp%3eI%26rsquo%3bve%20been%20reading%20this%20book%20on%20%3ca%20href%3d%22https%3a%2f%2fhypermedia.systems%22%3eHypermedia%20Systems%3c%2fa%3e%2c%20and%20one%20of%20the%20things%20they%20do%20is%20develop%20a%20small%20CRUD%20application%20in%20Python%20for%20which%20the%20code%20can%20be%20found%20%3ca%20href%3d%22https%3a%2f%2fgithub.com%2fbigskysoftware%2fcontact-app%22%3ehere%3c%2fa%3e.%20Like%20the%20good%20software%20citizens%20they%20are%2c%20they%26rsquo%3bve%20included%20a%20full%20detailed%20list%20of%20their%20project%20dependencies%20as%20a%20%3ca%20href%3d%22https%3a%2f%2fgithub.com%2fbigskysoftware%2fcontact-app%2fblob%2fmaster%2frequirements.txt%22%3e%3ccode%3erequirements.txt%3c%2fcode%3e%20file%3c%2fa%3e.%3c%2fp%3e" aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>

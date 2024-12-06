@@ -11,25 +11,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> My mob programming initiation at Summer of Nix 2023 | Auguste&#39;s website</title>
   <link rel = 'canonical' href = 'https://augustebaum.github.io/posts/2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023/'>
-  <meta name="description" content="  Hi, I&#39;m Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I&#39;m a software developer from Paris, France currently interested in Nix, domain-driven development, and doing projects because they sound fun. I&#39;m #openToWork!.
+  <meta name="description" content="  Hi, I&#39;m Auguste Baum! In case you were wondering, my first name is pronounced like the eighth month of the year. I&#39;m a software developer with start-up experience and interests in functional languages, reproducibility and new ways of programming.
 
-  I hold a Master&#39;s degree in Data Science from EPFL, in Switzerland. I have also been involved with [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
+  I hold a Master&#39;s degree in Data Science from EPFL, in Switzerland. I am also the former CTO of [Resilio](https://www.resilio.tech), a start-up aiming to help companies reduce their environmental impact.
   ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="My mob programming initiation at Summer of Nix 2023" />
-<meta property="og:description" content="This summer I applied and was accepted to take part in Summer of Nix 2023, a 3- month paid part-time job packaging open-source software with Nix/NixOS. TL;DR: I had a great time, and I encourage anyone interested in Nix and programming to apply! Here&rsquo;s a summary of this post:
-Summer of Nix 2023 in a Nutshell How I Got into Summer of Nix My Experience with Summer of Nix Final Remarks Summer of Nix 2023 in a Nutshell Summer of Nix is a part-time, paid program that lasts for 3 months in the (northern hemisphere) summer, wherein participants contribute to the Nix ecosystem." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://augustebaum.github.io/posts/2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-11-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-11-28T00:00:00+00:00" />
+  <meta property="og:url" content="https://augustebaum.github.io/posts/2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023/">
+  <meta property="og:site_name" content="Auguste&#39;s website">
+  <meta property="og:title" content="My mob programming initiation at Summer of Nix 2023">
+  <meta property="og:description" content="This summer I applied and was accepted to take part in Summer of Nix 2023, a 3- month paid part-time job packaging open-source software with Nix/NixOS. TL;DR: I had a great time, and I encourage anyone interested in Nix and programming to apply! Here’s a summary of this post:
+Summer of Nix 2023 in a Nutshell How I Got into Summer of Nix My Experience with Summer of Nix Final Remarks Summer of Nix 2023 in a Nutshell Summer of Nix is a part-time, paid program that lasts for 3 months in the (northern hemisphere) summer, wherein participants contribute to the Nix ecosystem. This year it consisted in packaging various pieces of software, namely software that is supported by an NGI grant. Most participants like me were paid 3000 EUR for 160 hours (or 18.75 EUR/hour), while some participants with the role of “mob facilitators” were paid 5000 EUR for 160 hours (or 31.25 EUR/hour) for participating as well as taking on the responsibility for their mob (setting up the schedule, tools, communication…).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-11-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-11-28T00:00:00+00:00">
 
-
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My mob programming initiation at Summer of Nix 2023"/>
-<meta name="twitter:description" content="This summer I applied and was accepted to take part in Summer of Nix 2023, a 3- month paid part-time job packaging open-source software with Nix/NixOS. TL;DR: I had a great time, and I encourage anyone interested in Nix and programming to apply! Here&rsquo;s a summary of this post:
-Summer of Nix 2023 in a Nutshell How I Got into Summer of Nix My Experience with Summer of Nix Final Remarks Summer of Nix 2023 in a Nutshell Summer of Nix is a part-time, paid program that lasts for 3 months in the (northern hemisphere) summer, wherein participants contribute to the Nix ecosystem."/>
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="My mob programming initiation at Summer of Nix 2023">
+  <meta name="twitter:description" content="This summer I applied and was accepted to take part in Summer of Nix 2023, a 3- month paid part-time job packaging open-source software with Nix/NixOS. TL;DR: I had a great time, and I encourage anyone interested in Nix and programming to apply! Here’s a summary of this post:
+Summer of Nix 2023 in a Nutshell How I Got into Summer of Nix My Experience with Summer of Nix Final Remarks Summer of Nix 2023 in a Nutshell Summer of Nix is a part-time, paid program that lasts for 3 months in the (northern hemisphere) summer, wherein participants contribute to the Nix ecosystem. This year it consisted in packaging various pieces of software, namely software that is supported by an NGI grant. Most participants like me were paid 3000 EUR for 160 hours (or 18.75 EUR/hour), while some participants with the role of “mob facilitators” were paid 5000 EUR for 160 hours (or 31.25 EUR/hour) for participating as well as taking on the responsibility for their mob (setting up the schedule, tools, communication…).">
 
   
   
@@ -50,7 +54,6 @@ Summer of Nix 2023 in a Nutshell How I Got into Summer of Nix My Experience with
   
 <link rel="icon" type="image/png" href="https://augustebaum.github.io/images/favicon.ico" />
 
-  
   
   
   
@@ -155,7 +158,7 @@ Summer of Nix 2023 in a Nutshell How I Got into Summer of Nix My Experience with
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023%2f&name=My%20mob%20programming%20initiation%20at%20Summer%20of%20Nix%202023&description=This%20summer%20I%20applied%20and%20was%20accepted%20to%20take%20part%20in%20Summer%20of%20Nix%202023%2c%20a%203-%20month%20paid%20part-time%20job%20packaging%20open-source%20software%20with%20Nix%2fNixOS.%20TL%3bDR%3a%20I%20had%20a%20great%20time%2c%20and%20I%20encourage%20anyone%20interested%20in%20Nix%20and%20programming%20to%20apply%21%20Here%26rsquo%3bs%20a%20summary%20of%20this%20post%3a%0aSummer%20of%20Nix%202023%20in%20a%20Nutshell%20How%20I%20Got%20into%20Summer%20of%20Nix%20My%20Experience%20with%20Summer%20of%20Nix%20Final%20Remarks%20Summer%20of%20Nix%202023%20in%20a%20Nutshell%20Summer%20of%20Nix%20is%20a%20part-time%2c%20paid%20program%20that%20lasts%20for%203%20months%20in%20the%20%28northern%20hemisphere%29%20summer%2c%20wherein%20participants%20contribute%20to%20the%20Nix%20ecosystem." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023%2f&name=My%20mob%20programming%20initiation%20at%20Summer%20of%20Nix%202023&description=%3cp%3eThis%20summer%20I%20applied%20and%20was%20accepted%20to%20take%20part%20in%20Summer%20of%20Nix%202023%2c%20a%203-%20month%20paid%20part-time%20job%20packaging%20open-source%20software%20with%20Nix%2fNixOS.%20TL%3bDR%3a%20I%20had%20a%20great%20time%2c%20and%20I%20encourage%20anyone%20interested%20in%20Nix%20and%20programming%20to%20apply%21%20Here%26rsquo%3bs%20a%20summary%20of%20this%20post%3a%3c%2fp%3e%0a%3cul%3e%0a%3cli%3e%3ca%20href%3d%22%23Summer%2520of%2520Nix%25202023%2520in%2520a%2520Nutshell%22%3eSummer%20of%20Nix%202023%20in%20a%20Nutshell%3c%2fa%3e%3c%2fli%3e%0a%3cli%3e%3ca%20href%3d%22%23How%2520I%2520Got%2520into%2520Summer%2520of%2520Nix%22%3eHow%20I%20Got%20into%20Summer%20of%20Nix%3c%2fa%3e%3c%2fli%3e%0a%3cli%3e%3ca%20href%3d%22%23My%2520Experience%2520with%2520Summer%2520of%2520Nix%22%3eMy%20Experience%20with%20Summer%20of%20Nix%3c%2fa%3e%3c%2fli%3e%0a%3cli%3e%3ca%20href%3d%22%23Final%2520Remarks%22%3eFinal%20Remarks%3c%2fa%3e%3c%2fli%3e%0a%3c%2ful%3e%0a%3ch2%20id%3d%22summer-of-nix-2023-in-a-nutshell%22%3eSummer%20of%20Nix%202023%20in%20a%20Nutshell%3c%2fh2%3e%0a%3cp%3eSummer%20of%20Nix%20is%20a%20part-time%2c%20paid%20program%20that%20lasts%20for%203%20months%20in%20the%20%28northern%20hemisphere%29%20summer%2c%20wherein%20participants%20contribute%20to%20the%20Nix%20ecosystem.%20This%20year%20it%20consisted%20in%20packaging%20various%20pieces%20of%20software%2c%20namely%20software%20that%20is%20supported%20by%20an%20%3ca%20href%3d%22https%3a%2f%2fwww.ngi.eu%2fabout%2f%22%3eNGI%3c%2fa%3e%20grant.%20Most%20participants%20like%20me%20were%20paid%203000%20EUR%20for%20160%20hours%20%28or%2018.75%20EUR%2fhour%29%2c%20while%20some%20participants%20with%20the%20role%20of%20%26ldquo%3bmob%20facilitators%26rdquo%3b%20were%20paid%205000%20EUR%20for%20160%20hours%20%28or%2031.25%20EUR%2fhour%29%20for%20participating%20as%20well%20as%20taking%20on%20the%20responsibility%20for%20their%20mob%20%28setting%20up%20the%20schedule%2c%20tools%2c%20communication%26hellip%3b%29.%3c%2fp%3e" aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
@@ -410,7 +413,7 @@ By the way, I was invited to talk about the experience in the Mob Mentality podc
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023%2f&name=My%20mob%20programming%20initiation%20at%20Summer%20of%20Nix%202023&description=This%20summer%20I%20applied%20and%20was%20accepted%20to%20take%20part%20in%20Summer%20of%20Nix%202023%2c%20a%203-%20month%20paid%20part-time%20job%20packaging%20open-source%20software%20with%20Nix%2fNixOS.%20TL%3bDR%3a%20I%20had%20a%20great%20time%2c%20and%20I%20encourage%20anyone%20interested%20in%20Nix%20and%20programming%20to%20apply%21%20Here%26rsquo%3bs%20a%20summary%20of%20this%20post%3a%0aSummer%20of%20Nix%202023%20in%20a%20Nutshell%20How%20I%20Got%20into%20Summer%20of%20Nix%20My%20Experience%20with%20Summer%20of%20Nix%20Final%20Remarks%20Summer%20of%20Nix%202023%20in%20a%20Nutshell%20Summer%20of%20Nix%20is%20a%20part-time%2c%20paid%20program%20that%20lasts%20for%203%20months%20in%20the%20%28northern%20hemisphere%29%20summer%2c%20wherein%20participants%20contribute%20to%20the%20Nix%20ecosystem." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2faugustebaum.github.io%2fposts%2f2023-11-28-05-my-mob-programming-initiation-at-summer-of-nix-2023%2f&name=My%20mob%20programming%20initiation%20at%20Summer%20of%20Nix%202023&description=%3cp%3eThis%20summer%20I%20applied%20and%20was%20accepted%20to%20take%20part%20in%20Summer%20of%20Nix%202023%2c%20a%203-%20month%20paid%20part-time%20job%20packaging%20open-source%20software%20with%20Nix%2fNixOS.%20TL%3bDR%3a%20I%20had%20a%20great%20time%2c%20and%20I%20encourage%20anyone%20interested%20in%20Nix%20and%20programming%20to%20apply%21%20Here%26rsquo%3bs%20a%20summary%20of%20this%20post%3a%3c%2fp%3e%0a%3cul%3e%0a%3cli%3e%3ca%20href%3d%22%23Summer%2520of%2520Nix%25202023%2520in%2520a%2520Nutshell%22%3eSummer%20of%20Nix%202023%20in%20a%20Nutshell%3c%2fa%3e%3c%2fli%3e%0a%3cli%3e%3ca%20href%3d%22%23How%2520I%2520Got%2520into%2520Summer%2520of%2520Nix%22%3eHow%20I%20Got%20into%20Summer%20of%20Nix%3c%2fa%3e%3c%2fli%3e%0a%3cli%3e%3ca%20href%3d%22%23My%2520Experience%2520with%2520Summer%2520of%2520Nix%22%3eMy%20Experience%20with%20Summer%20of%20Nix%3c%2fa%3e%3c%2fli%3e%0a%3cli%3e%3ca%20href%3d%22%23Final%2520Remarks%22%3eFinal%20Remarks%3c%2fa%3e%3c%2fli%3e%0a%3c%2ful%3e%0a%3ch2%20id%3d%22summer-of-nix-2023-in-a-nutshell%22%3eSummer%20of%20Nix%202023%20in%20a%20Nutshell%3c%2fh2%3e%0a%3cp%3eSummer%20of%20Nix%20is%20a%20part-time%2c%20paid%20program%20that%20lasts%20for%203%20months%20in%20the%20%28northern%20hemisphere%29%20summer%2c%20wherein%20participants%20contribute%20to%20the%20Nix%20ecosystem.%20This%20year%20it%20consisted%20in%20packaging%20various%20pieces%20of%20software%2c%20namely%20software%20that%20is%20supported%20by%20an%20%3ca%20href%3d%22https%3a%2f%2fwww.ngi.eu%2fabout%2f%22%3eNGI%3c%2fa%3e%20grant.%20Most%20participants%20like%20me%20were%20paid%203000%20EUR%20for%20160%20hours%20%28or%2018.75%20EUR%2fhour%29%2c%20while%20some%20participants%20with%20the%20role%20of%20%26ldquo%3bmob%20facilitators%26rdquo%3b%20were%20paid%205000%20EUR%20for%20160%20hours%20%28or%2031.25%20EUR%2fhour%29%20for%20participating%20as%20well%20as%20taking%20on%20the%20responsibility%20for%20their%20mob%20%28setting%20up%20the%20schedule%2c%20tools%2c%20communication%26hellip%3b%29.%3c%2fp%3e" aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
