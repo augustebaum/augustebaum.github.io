@@ -5,7 +5,6 @@ theme = "cactus"
 copyright = "Auguste Baum" # cactus will use title if copyright is not set
 
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
 # summaryLength = 2
 
 # Main menu which appears below site header.
@@ -51,7 +50,7 @@ weight = 4
 [params]
   colortheme = "dark" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
-  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+  googleAnalytics = false
   showAllPostsArchive = false # default
 
   # Home page settings
